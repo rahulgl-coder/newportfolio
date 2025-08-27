@@ -72,7 +72,7 @@ const Projects = () => {
         "Clean code structure",
         "Intuitive user experience"
       ],
-      
+      liveUrl:"https://web-design-0s1x.onrender.com",
       githubUrl: "https://github.com/rahulgl-coder/web-design",
       icon: <Globe className="h-8 w-8" />,
       gradient: "from-indigo-500 to-blue-600"
