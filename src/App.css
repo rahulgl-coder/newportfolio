@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,77 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  /* Orange to black gradient background */
+  /* background: linear-gradient(135deg, #ff8c00 0%, #000000 100%); */
+  min-height: 100vh;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  /* Optional: Add gradient to card as well */
+  /* background: linear-gradient(45deg, #ff8c00 0%, #000000 100%);x */
+  border-radius: 8px;
+  color: white; /* Ensure text is visible on dark background */
+}
+
+.read-the-docs {
+  color: #ccc; /* Lighter color for better contrast on dark background */
+}
+
+/* Alternative gradient options you can use: */
+
+/* Vertical gradient */
+.vertical-gradient {
+  background: linear-gradient(to bottom, #ff8c00 0%, #000000 100%);
+}
+
+/* Radial gradient */
+.radial-gradient {
+  background: radial-gradient(circle, #ff8c00 0%, #000000 100%);
+}
+
+/* More orange variations */
+.bright-orange-gradient {
+  background: linear-gradient(135deg, #ff6600 0%, #000000 100%);
+}
+
+.sunset-gradient {
+  background: linear-gradient(135deg, #ff4500 0%, #ff8c00 30%, #000000 100%);
 }

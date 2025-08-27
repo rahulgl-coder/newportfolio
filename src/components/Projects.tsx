@@ -18,8 +18,8 @@ const Projects = () => {
         "MVC architecture implementation",
         "Deployed on Render platform"
       ],
-      liveUrl: "#",
-      githubUrl: "#",
+
+          githubUrl: "https://github.com/rahulgl-coder/chat-App",
       icon: <MessageCircle className="h-8 w-8" />,
       gradient: "from-blue-500 to-purple-600"
     },
@@ -36,8 +36,8 @@ const Projects = () => {
         "Admin panel for product management",
         "Order confirmation with billing"
       ],
-      liveUrl: "#",
-      githubUrl: "#",
+      liveUrl: "https://e-commerce-frontend-1-7tv7.onrender.com/",
+      githubUrl: "https://github.com/rahulgl-coder/E-commerce-Frontend",
       icon: <ShoppingCart className="h-8 w-8" />,
       gradient: "from-green-500 to-teal-600"
     },
@@ -54,8 +54,8 @@ const Projects = () => {
         "Local data persistence",
         "Modern form validation"
       ],
-      liveUrl: "#",
-      githubUrl: "#",
+      
+      githubUrl: "https://github.com/rahulgl-coder/Employee_Managment.git",
       icon: <Users className="h-8 w-8" />,
       gradient: "from-orange-500 to-red-600"
     },
@@ -72,8 +72,8 @@ const Projects = () => {
         "Clean code structure",
         "Intuitive user experience"
       ],
-      liveUrl: "#",
-      githubUrl: "#",
+      
+      githubUrl: "https://github.com/rahulgl-coder/web-design",
       icon: <Globe className="h-8 w-8" />,
       gradient: "from-indigo-500 to-blue-600"
     }
@@ -147,16 +147,19 @@ const Projects = () => {
                 </div>
 
                 <div className="flex gap-3 pt-4">
+                  {project.liveUrl&&(
                   <Button 
                     size="sm" 
                     className="bg-primary hover:bg-primary/90 text-primary-foreground"
                     asChild
                   >
+
                     <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                       <ExternalLink className="h-4 w-4 mr-2" />
                       Live Demo
                     </a>
-                  </Button>
+                  </Button> )}
+                  
                   <Button 
                     variant="outline" 
                     size="sm"

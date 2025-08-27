@@ -49,15 +49,18 @@ const Hero = () => {
             onClick={() => scrollToSection('projects')}
           >
             View My Work <ExternalLink className="ml-2 h-4 w-4" />
+         
           </Button>
+          {/* <a href='https://pxtmuaaonzcwntswzkcy.supabase.co/storage/v1/object/public/resume/resumes/689ca0391eb1591d6e43e0b1-1756217417667-Rahul%20GL.pdf' target="_blank"> */}
           <Button 
             variant="outline" 
             size="lg"
             className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-            onClick={() => scrollToSection('contact')}
+          onClick={()=>window.open("https://pxtmuaaonzcwntswzkcy.supabase.co/storage/v1/object/public/resume/resumes/689ca0391eb1591d6e43e0b1-1756217417667-Rahul%20GL.pdf")}
           >
-            Get In Touch
+            View Resume
           </Button>
+          {/* </a> */}
         </div>
 
         <div className="animate-slide-up flex items-center justify-center gap-6">
