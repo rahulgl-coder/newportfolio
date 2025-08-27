@@ -1,0 +1,30 @@
+h1{
+  font-size: 70px;
+
+}
+
+h2{
+  font-size:50px
+}
+.name{
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.banner1{
+   background: #404040;
+  background: linear-gradient(90deg, rgba(64, 64, 64, 1) 0%, rgba(64, 64, 64, 1) 19%, rgba(186, 186, 186, 1) 100%);
+}
+
+
+.banner2{
+
+ background: #404040;
+  background: linear-gradient(270deg, rgba(64, 64, 64, 1) 0%, rgba(64, 64, 64, 1) 19%, rgba(186, 186, 186, 1) 100%);
+}
+
+.logo{
+  font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
